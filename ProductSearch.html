@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Products</title>
+</head>
+<body>
+    <form action="Backend.php">
+        <h2>Search Products</h2>
+        <div>
+            <label for="Name">Name</label>
+            <input type="search" name="Name" id="Name">
+        </div>
+        <br>
+        <div>
+            Qty: <input type="number" name="QTy" placeholder="Quantity">
+        </div>
+        <br>
+        <div>
+            <label for="Color">Color</label>
+            <select name="Color" id="Color">
+                <option value="Green">Green</option>
+                <option value="Black">Black</option>
+                <option value="Wh">White</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Date">Deleivery Date</label>
+            <input type="date" name="DateD" id="Date">
+        </div>
+        <br>
+        
+        <div>
+            Terms & Condition: <input type="checkbox" name="terms" id="">
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="Gender" id=""> Female <input type="radio" name="Gender" id="">
+        </div>
+        <div>
+            <input type="submit" value="Place Order">
+            <input type="reset" value="Reset Page">
+        </div>
+        <br>
+        <div>
+            <textarea name="feedback" rows="10" cols="30" placeholder="feedback"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    
+    </form>
+</body>
+</html>
